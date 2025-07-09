@@ -1,0 +1,61 @@
+/* Custom styling for react-range-slider-input */
+.priceRangeSlider {
+  width: 100%;
+  padding: 0px;
+}
+
+.priceRangeSlider .range-slider-input {
+  width: 100%;
+  height: 4px;
+  background: #e9ecef;
+  border-radius: 3px;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.priceRangeSlider .range-slider-input:hover {
+  opacity: 1;
+}
+
+/* Webkit browsers (Chrome, Safari) */
+.priceRangeSlider .range-slider-input::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #CF3425;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.priceRangeSlider .range-slider-input::-webkit-slider-runnable-track {
+  height: 6px;
+  background: #e9ecef;
+  border-radius: 3px;
+}
+
+/* Firefox */
+.priceRangeSlider .range-slider-input::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #CF3425;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.priceRangeSlider .range-slider-input::-moz-range-track {
+  height: 4px;
+  background: #e9ecef;
+  border-radius: 3px;
+}
+
+/* Range slider track styling */
+.priceRangeSlider .range-slider-track {
+  height: 4px;
+  background: #CF3425;
+  border-radius: 3px;
+} 
